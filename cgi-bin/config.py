@@ -8,4 +8,4 @@ class mysql(object):
 	database = 'www'# 数据库名称
 	table = 'diary'# 数据表名称
 
-logdir = r'D:\error'# 错误日志文件目录
+logdir = r'D:\error'# 错误日志文件目录(务必确保此目录存在)
