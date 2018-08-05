@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="utf-8">
+	<title>珒陶的日记本 - 写日记</title>
+</head>
+<body style="background: rgb(0,0,0);">
+	<a href="index.html" style="position:fixed" target="_blank">日间模式</a>
+	<h1 style="text-align: center; color: rgb(255,255,255)">写日记</h1>
+	<form action="cgi-bin/post.py" method="post" target="_blank" style="height: 100%">
+		<label style="color: rgb(255,255,255)">标题</label><br/>
+		<input type="text" name="title" style="width: 90vw; position:fixed; transform:translateX(-50%); left:50%; background: rgb(0,0,0); color: rgb(255,255,255)"><br/>
+		<label style="color: rgb(255,255,255)">内容</label><br/>
+		<textarea name="content" style="width: 90vw; height: 70vh; position:fixed; transform:translateX(-50%); left:50%; background: rgb(0,0,0); color: rgb(255,255,255)"></textarea><br/>
+		<input type="submit" value="写入日记本" style="position:fixed; transform:translateX(-50%); left:50%; top: 90vh;"/>
+	</form>
+</body>
+</html>
